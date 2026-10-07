@@ -4,12 +4,49 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
+ <!-- Car 1 -->
+      <a-box position="-10 2 -3" width="4" height="1.85" depth="6.75" rotation="0 45 0" src="purp.jpg">
+        <a-cone position="0 1.67 0" radius-bottom="2.8" radius-top="0" height="1.5" segments-radial="4" rotation="0 0 0" scale="1 1 2" color="#A0A0A0" src="purp.jpg"></a-cone>
+        <a-box position="0 0.5 3.38" width="3.8" height="0.5" depth="0.07" color="#E0F7FA"></a-box>
+        <a-box position="0 -0.15 3.4" width="3.8" height="0.85" depth="0.07" src="tesla.jpg"></a-box>
+
+        <a-torus position="-1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>    
+        <a-torus position="1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>        
+        <a-torus position="-1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>       
+        <a-torus position="1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>        
+      </a-box>
+ <!-- Car 2 -->
+      <a-box position="-2 2 -9" width="4" height="1.85" depth="6.75" rotation="0 0 0" src="wrap.webp">
+        <a-cone position="0 1.67 0" radius-bottom="2.8" radius-top="0" height="1.5" segments-radial="4" rotation="0 0 0" scale="1 1 2" color="#A0A0A0" src="wrap.webp"></a-cone>
+        <a-box position="0 0.5 3.38" width="3.8" height="0.5" depth="0.07" color="#E0F7FA"></a-box>
+        <a-box position="0 -0.15 3.4" width="3.8" height="0.85" depth="0.07" src="tesla.jpg"></a-box>
+       
+        <a-torus position="-1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+        <a-torus position="1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+        <a-torus position="-1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+        <a-torus position="1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+      </a-box>
+ <!-- Car 3 -->
+      <a-box position="6 2 -3" width="4" height="1.85" depth="6.75" rotation="0 -45 0" src="red.jpg">
+        <a-cone position="0 1.67 0" radius-bottom="2.8" radius-top="0" height="1.5" segments-radial="4" rotation="0 0 0" scale="1 1 2" color="#A0A0A0" src="red.jpg"></a-cone>
+        <a-box position="0 0.5 3.38" width="3.8" height="0.5" depth="0.07" color="#E0F7FA"></a-box>
+        <a-box position="0 -0.15 3.4" width="3.8" height="0.85" depth="0.07" src="tesla.jpg"></a-box>
+
+        <a-torus position="-1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+        <a-torus position="1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+        <a-torus position="-1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+        <a-torus position="1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+      </a-box>
+
+<!-- Logo -->
+
+<a-box position="-2 7 -2" width="5" height="4" src="logo.webp"></a-box>
+
+      <a-plane position="0 0 -1" rotation="-90 0 0" width="50" height="50" src="warefloor.png"></a-plane>
+      <a-sky color="#ECECEC" src="warehouse.jpg"></a-sky>
       <a-camera position="0 1.4 5"></a-camera>
+
     </a-scene>
+
   </body>
 </html>
