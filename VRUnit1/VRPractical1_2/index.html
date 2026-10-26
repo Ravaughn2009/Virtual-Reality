@@ -1,3 +1,4 @@
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -5,15 +6,16 @@
   </head>
   <body>
     <a-scene>
-  
+
       <a-plane position="0 0 0" rotation="-90 0 0" width="300" height="300" color="#7BC8A4"></a-plane>
 
 
       <a-plane position="0 0.01 0" rotation="-90 0 0" width="8" height="300" color="#333333"></a-plane>
       <a-plane position="0 0.02 0" rotation="-90 0 0" width="0.3" height="300" color="#FFFFFF"></a-plane>
 
+      
+      <a-entity position="-22 0 -25" rotation="0 90 0">
 
-      <a-entity position="-22 0 0">
         <a-entity position="0 0 -10.875">
           <a-plane position="0 0.02 0" rotation="-90 0 0" width="17.35" height="21.35" src="wood.jpg" repeat="9 11"></a-plane>
           <a-entity position="0 0 10.875">
@@ -52,9 +54,29 @@
           <a-box width="10.1" height="0.3" depth="23.35" position="-4.6 7.6 0" rotation="0 0 21" material="src: housebricks.jpg; side: double"></a-box>
           <a-box width="10.1" height="0.3" depth="23.35" position="4.6 7.6 0" rotation="0 0 -21" material="src: housebricks.jpg; side: double"></a-box>
         </a-entity>
+
+        <a-entity position="12 0 -10">
+          <a-box position="-3 2 0" width="0.1" height="4" depth="8" src="housebricks.jpg"></a-box>
+          <a-box position="3 2 0" width="0.1" height="4" depth="8" src="housebricks.jpg"></a-box>
+          <a-box position="0 2 -4" width="6" height="4" depth="0.1" src="housebricks.jpg"></a-box>
+          <a-box position="0 4.1 0" width="6.2" height="0.2" depth="8.2" src="housebricks.jpg" rotation="0 0 0"></a-box>
+        
+          <a-entity position="0 0 0" rotation="0 180 0">
+            <a-box position="0 2 0" width="4" height="1.85" depth="6.75" rotation="0 0 0" src="wrap.webp">
+              <a-cone position="0 1.67 0" radius-bottom="2.8" radius-top="0" height="1.5" segments-radial="4" rotation="0 0 0" scale="1 1 2" color="#A0A0A0" src="wrap.webp"></a-cone>
+              <a-box position="0 0.5 3.38" width="3.8" height="0.5" depth="0.07" color="#E0F7FA"></a-box>
+              <a-box position="0 -0.15 3.4" width="3.8" height="0.85" depth="0.06" src="tesla.jpg"></a-box>
+              <a-torus position="-1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+              <a-torus position="1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+              <a-torus position="-1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+              <a-torus position="1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+            </a-box>
+          </a-entity>
+        </a-entity>
       </a-entity>
 
-      <a-entity position="22 0 -25" rotation="0 180 0">
+      <a-entity position="-22 0 25" rotation="0 90 0">
+
         <a-entity position="0 0 -10.875">
           <a-plane position="0 0.02 0" rotation="-90 0 0" width="17.35" height="21.35" src="wood.jpg" repeat="9 11"></a-plane>
           <a-entity position="0 0 10.875">
@@ -93,10 +115,31 @@
           <a-box width="10.1" height="0.3" depth="23.35" position="-4.6 7.6 0" rotation="0 0 21" material="src: housebricks.jpg; side: double"></a-box>
           <a-box width="10.1" height="0.3" depth="23.35" position="4.6 7.6 0" rotation="0 0 -21" material="src: housebricks.jpg; side: double"></a-box>
         </a-entity>
+
+        <a-entity position="12 0 -10">
+          <a-box position="-3 2 0" width="0.1" height="4" depth="8" src="housebricks.jpg"></a-box>
+          <a-box position="3 2 0" width="0.1" height="4" depth="8" src="housebricks.jpg"></a-box>
+          <a-box position="0 2 -4" width="6" height="4" depth="0.1" src="housebricks.jpg"></a-box>
+          <a-box position="0 4.1 0" width="6.2" height="0.2" depth="8.2" src="housebricks.jpg" rotation="0 0 0"></a-box>
+
+          <a-entity position="0 0 0" rotation="0 180 0">
+            <a-box position="0 2 0" width="4" height="1.85" depth="6.75" rotation="0 0 0" src="wrap.webp">
+              <a-cone position="0 1.67 0" radius-bottom="2.8" radius-top="0" height="1.5" segments-radial="4" rotation="0 0 0" scale="1 1 2" color="#A0A0A0" src="wrap.webp"></a-cone>
+              <a-box position="0 0.5 3.38" width="3.8" height="0.5" depth="0.07" color="#E0F7FA"></a-box>
+              <a-box position="0 -0.15 3.4" width="3.8" height="0.85" depth="0.06" src="tesla.jpg"></a-box>
+              <a-torus position="-1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+              <a-torus position="1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+              <a-torus position="-1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+              <a-torus position="1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+            </a-box>
+          </a-entity>
+        </a-entity>
       </a-entity>
 
 
-      <a-entity position="22 0 0" rotation="0 180 0">
+
+      <a-entity position="22 0 -25" rotation="0 -90 0">
+
         <a-entity position="0 0 -10.875">
           <a-plane position="0 0.02 0" rotation="-90 0 0" width="17.35" height="21.35" src="wood.jpg" repeat="9 11"></a-plane>
           <a-entity position="0 0 10.875">
@@ -135,9 +178,30 @@
           <a-box width="10.1" height="0.3" depth="23.35" position="-4.6 7.6 0" rotation="0 0 21" material="src: housebricks.jpg; side: double"></a-box>
           <a-box width="10.1" height="0.3" depth="23.35" position="4.6 7.6 0" rotation="0 0 -21" material="src: housebricks.jpg; side: double"></a-box>
         </a-entity>
+
+  
+        <a-entity position="12 0 -10">
+          <a-box position="-3 2 0" width="0.1" height="4" depth="8" src="housebricks.jpg"></a-box>
+          <a-box position="3 2 0" width="0.1" height="4" depth="8" src="housebricks.jpg"></a-box>
+          <a-box position="0 2 -4" width="6" height="4" depth="0.1" src="housebricks.jpg"></a-box>
+          <a-box position="0 4.1 0" width="6.2" height="0.2" depth="8.2" src="housebricks.jpg" rotation="0 0 0"></a-box>
+  
+          <a-entity position="0 0 0" rotation="0 180 0">
+            <a-box position="0 2 0" width="4" height="1.85" depth="6.75" rotation="0 0 0" src="wrap.webp">
+              <a-cone position="0 1.67 0" radius-bottom="2.8" radius-top="0" height="1.5" segments-radial="4" rotation="0 0 0" scale="1 1 2" color="#A0A0A0" src="wrap.webp"></a-cone>
+              <a-box position="0 0.5 3.38" width="3.8" height="0.5" depth="0.07" color="#E0F7FA"></a-box>
+              <a-box position="0 -0.15 3.4" width="3.8" height="0.85" depth="0.06" src="tesla.jpg"></a-box>
+              <a-torus position="-1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+              <a-torus position="1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+              <a-torus position="-1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+              <a-torus position="1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+            </a-box>
+          </a-entity>
+        </a-entity>
       </a-entity>
 
-      <a-entity position="22 0 25" rotation="0 180 0">
+      <a-entity position="22 0 25" rotation="0 -90 0">
+
         <a-entity position="0 0 -10.875">
           <a-plane position="0 0.02 0" rotation="-90 0 0" width="17.35" height="21.35" src="wood.jpg" repeat="9 11"></a-plane>
           <a-entity position="0 0 10.875">
@@ -176,27 +240,170 @@
           <a-box width="10.1" height="0.3" depth="23.35" position="-4.6 7.6 0" rotation="0 0 21" material="src: housebricks.jpg; side: double"></a-box>
           <a-box width="10.1" height="0.3" depth="23.35" position="4.6 7.6 0" rotation="0 0 -21" material="src: housebricks.jpg; side: double"></a-box>
         </a-entity>
-      </a-entity>
 
-      <a-entity position="4 0 -5">
-        <a-box position="-3 2 0" width="0.1" height="4" depth="8" src="housebricks.jpg"></a-box>
-        <a-box position="3 2 0" width="0.1" height="4" depth="8" src="housebricks.jpg"></a-box>
-        <a-box position="0 2 -4" width="6" height="4" depth="0.1" src="housebricks.jpg"></a-box>
-        <a-box position="0 4.1 0" width="6.2" height="0.2" depth="8.2" src="housebricks.jpg" rotation="0 0 0"></a-box>
-        <a-box position="0 2 0" width="4" height="1.85" depth="6.75" rotation="0 0 0" src="wrap.webp">
-          <a-cone position="0 1.67 0" radius-bottom="2.8" radius-top="0" height="1.5" segments-radial="4" rotation="0 0 0" scale="1 1 2" color="#A0A0A0" src="wrap.webp"></a-cone>
-          <a-box position="0 0.5 3.38" width="3.8" height="0.5" depth="0.07" color="#E0F7FA"></a-box>
-          <a-box position="0 -0.15 3.4" width="3.8" height="0.85" depth="0.07" src="tesla.jpg"></a-box>
-          <a-torus position="-1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
-          <a-torus position="1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
-          <a-torus position="-1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
-          <a-torus position="1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
-        </a-box>
+  
+        <a-entity position="12 0 -10">
+          <a-box position="-3 2 0" width="0.1" height="4" depth="8" src="housebricks.jpg"></a-box>
+          <a-box position="3 2 0" width="0.1" height="4" depth="8" src="housebricks.jpg"></a-box>
+          <a-box position="0 2 -4" width="6" height="4" depth="0.1" src="housebricks.jpg"></a-box>
+          <a-box position="0 4.1 0" width="6.2" height="0.2" depth="8.2" src="housebricks.jpg" rotation="0 0 0"></a-box>
+          
+          <a-entity position="0 0 0" rotation="0 180 0">
+            <a-box position="0 2 0" width="4" height="1.85" depth="6.75" rotation="0 0 0" src="wrap.webp">
+              <a-cone position="0 1.67 0" radius-bottom="2.8" radius-top="0" height="1.5" segments-radial="4" rotation="0 0 0" scale="1 1 2" color="#A0A0A0" src="wrap.webp"></a-cone>
+              <a-box position="0 0.5 3.38" width="3.8" height="0.5" depth="0.07" color="#E0F7FA"></a-box>
+              <a-box position="0 -0.15 3.4" width="3.8" height="0.85" depth="0.06" src="tesla.jpg"></a-box>
+              <a-torus position="-1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+              <a-torus position="1.8 -0.75 2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+              <a-torus position="-1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+              <a-torus position="1.8 -0.75 -2" rotation="0 90 0" radius="1" tube="0.25" src="tire.jpg"></a-torus>
+            </a-box>
+          </a-entity>
+        </a-entity>
       </a-entity>
       
-      <!-- Sky & Camera -->
+    <a-entity position="-12 0 -12">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="-38 0 -12">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="-12 0 -38">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="-38 0 -38">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="-25 0 -42">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+
+      <a-entity position="-12 0 12">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="-38 0 12">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="-12 0 38">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="-38 0 38">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity> 
+
+      <a-entity position="12 0 -12">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="38 0 -12">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="12 0 -38">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="38 0 -38">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+
+      <a-entity position="12 0 12">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="38 0 12">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="12 0 38">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+      <a-entity position="38 0 38">
+        <a-sphere position="0 3.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="-1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="1 2.25 0" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 1" radius="1.25" color="pink"></a-sphere>
+        <a-sphere position="0 2.25 -1" radius="1.25" color="pink"></a-sphere>
+        <a-cylinder position="0 0.75 0" radius="0.5" height="3.5" src="wood.jpg"></a-cylinder>
+      </a-entity>
+
       <a-sky src="sky.jpg"></a-sky>
-      <a-camera position="0 1.6 30"></a-camera>
+      <a-camera position="0 1.6 35"></a-camera>
     </a-scene>
   </body>
 </html>
